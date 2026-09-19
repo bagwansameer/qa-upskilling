@@ -1,0 +1,1 @@
+This file has been created to keep a track of all the resources that will be used to learn and practice Playwright
