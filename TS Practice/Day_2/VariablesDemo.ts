@@ -121,3 +121,47 @@ console.log(country); */
 const country = "US";
 
 console.log(country); */
+
+
+//************************************************************ 
+// Re-initialization 
+// var and let - reassignment is allowed
+// const - reassignment is not allowed
+
+// Example 1 : Var allows re-assignment
+
+/* var age=25;
+age=35;
+console.log(age);
+
+// Example 2 : let allows re-assignment
+
+let age1=55;
+age1=85;
+console.log(age1);
+
+// Example 3 : const does not allow re-assignment
+
+const age2=55;
+age2=85; // compile error
+console.log(age2); */
+
+//*********************************************************** */
+// hosting
+// var : Hosting means accessing the variable without declaration.
+// let and con
+
+/* console.log(a); // undefined
+var a=10;
+console.log(a);
+
+
+console.log(a1);
+let a1=10;
+console.log(a1);
+
+
+console.log(b);
+const b=10;
+console.log(b); */
+
