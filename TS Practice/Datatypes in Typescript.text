@@ -1,0 +1,43 @@
+Imagine you have a toy box.
+
+**Annotation = you put a label on the box yourself.**
+
+You write "CARS ONLY" on the box. Now everyone knows: only cars go in here. If someone tries to put a teddy bear in, you say "No! The label says cars only."
+
+```ts
+let toys: string = "car";   // you wrote the label: this box holds text
+let age: number = 5;        // you wrote the label: this box holds numbers
+```
+
+**Type inference = TypeScript looks at what you put in and writes the label for you.**
+
+You drop a car into an empty box without writing anything. TypeScript peeks inside, sees a car, and says "Okay, I'll label this box CARS ONLY."
+
+```ts
+let toys = "car";   // TypeScript sees text and labels it string
+let age = 5;        // TypeScript sees a number and labels it number
+```
+
+**The label is the same either way.** The only difference is who wrote it: you (annotation) or TypeScript (inference).
+
+That's why your earlier code behaved the way it did:
+
+```ts
+let age = 20;      // no label written, but TypeScript inferred "number"
+age = "thirty";    // error: you can't put text in a number box
+```
+
+You never wrote `: number`, but TypeScript labeled it anyway.
+
+**When do you write the label yourself?**
+
+When the box starts empty, so TypeScript has nothing to peek at:
+
+```ts
+let name: string;   // empty box, so you must say what goes in it
+name = "Sameer";
+```
+
+If you skip the label here, TypeScript can't guess, and it treats the box as "anything goes" (`any`), which defeats the purpose.
+
+**Simple rule:** if you give a value right away, let TypeScript infer. If you don't, write the annotation.
