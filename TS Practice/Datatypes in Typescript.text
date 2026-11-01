@@ -2,7 +2,8 @@ Imagine you have a toy box.
 
 **Annotation = you put a label on the box yourself.**
 
-You write "CARS ONLY" on the box. Now everyone knows: only cars go in here. If someone tries to put a teddy bear in, you say "No! The label says cars only."
+You write "CARS ONLY" on the box. Now everyone knows: only cars go in here. If someone tries to put a teddy bear in, you say "No! 
+The label says cars only."
 
 ```ts
 let toys: string = "car";   // you wrote the label: this box holds text
