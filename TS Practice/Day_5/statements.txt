@@ -1,0 +1,4 @@
+There are two types of statements
+
+1.Conditional or Decision Making  : Based on certain conditions
+2.Looping or Iterative
