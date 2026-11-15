@@ -88,3 +88,6 @@ function greet(input: string | number | boolean):string{
 console.log(greet("Charlie"));
 console.log(greet(65));
 console.log(greet(false)); */
+
+{}
+
