@@ -5,9 +5,57 @@
 
 //If else condition:
 //3.Check if a person is a teenager (age between 13 and 19).
+/* let age:number=11;
+
+if (age>=13 && age<=19)
+{
+    console.log("the age belongs to a teenager");
+}
+else
+{
+    
+    console.log("the age does not belongs to a teenager");
+} */
 //4.Compare two numbers and print the larger one.
+
+/* let a:number=5;
+let b:number=13;
+
+if (a>b)
+{
+    console.log(`${a} is a large number`);
+}
+else
+{
+    
+    console.log(`${b} is a large number`);
+} */
+
+
 //5.Check if a number is positive, negative, or zero.
+let num: number = 0;
+if (num > 0) {
+    console.log(`${num} is positive.`);
+} else if (num < 0) {
+    console.log(`${num} is negative.`);
+} else {
+    console.log(`${num} is zero.`);
+} 
+
+
 //6.Check if a person is eligible for a senior citizen discount (age >= 60).
+/* let discount:number=65;
+
+
+if (discount>=60)
+{
+    console.log("You are eligible for senior citizen discount");
+}
+else
+{
+    
+    console.log("You are not eligible for senior citizen discount");
+}  */
 
 
 //Nested if else:
@@ -17,7 +65,7 @@
 //10.Check if a number is a multiple of both 5 and 10.
 //11.Check if a character is a vowel or consonant.
 //12.Check if a number is divisible by both 2 and 3.
-let numbers:number = 6;
+/* let numbers:number = 6;
 
 if(numbers%2==0 && numbers%3==0)
 {
@@ -26,7 +74,7 @@ if(numbers%2==0 && numbers%3==0)
 else
 {
      console.log(`${numbers} is not divisible by 2 and 3 `);
-}
+} */
 
 
 //Switch case:

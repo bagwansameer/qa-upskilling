@@ -15,15 +15,15 @@ let variable =(parameter) =>
 variable();
  */
 
-// Example 1 : arrow function with no parameter and no return types
-/* 
-let greet=():void=>
+// Example 1 : arrow function with no parameter and no return types 
+/* let greet=():void=>
 {
     console.log("Hello Typescript..");
 }
 
 greet();
- */
+
+ */ 
 // Example 2 : arrow function with  parameter and  return types
 
 /* let add=(a:number, b:number) =>
