@@ -86,6 +86,8 @@ console.log(greet("max")); */
 /* let greet=()=>
 {return "hello";}
 
+{}
+
 function greet1():{
     return "hello";
 } */
