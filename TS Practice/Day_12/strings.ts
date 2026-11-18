@@ -96,7 +96,6 @@ console.log("concatinating multiple strings : ",str1.concat(str2).concat(str3));
 // concept of string immutability
 // immutable - cannot change original value
 //num=10;
-
 let res=num+5;
 console.log(res);
 
