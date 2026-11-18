@@ -117,13 +117,13 @@ current value - the current element being processed
  */
 
 // Ex 1: total (sum) of all elements in an array
-
+/* 
 let total=numbers.reduce(function sum(total,ele){ 
 
     return total+ele; // here total , i.e the accumalator is zero by default
 })
 
-console.log("Total of array ",total)
+console.log("Total of array ",total) */
 
 // #5  some()
 /*
@@ -135,8 +135,8 @@ console.log("Total of array ",total)
 
 // Ex 1  - check if array contains negative number
 
-let hasNegative =numbers.some((ele)=>ele<0)
-console.log("Are there any negative values in the array : " ,hasNegative);
+/* let hasNegative =numbers.some((ele)=>ele<0)
+console.log("Are there any negative values in the array : " ,hasNegative); */
 
 // #6  every()
 /*
@@ -148,11 +148,67 @@ console.log("Are there any negative values in the array : " ,hasNegative);
 
 // Ex 1 - to check if all the numbers are even
 
-let alleven=numbers.every((ele)=>ele%2==0);
+/* let alleven=numbers.every((ele)=>ele%2==0);
 console.log("Are all the numbers even : " ,alleven);
-
+ */
 // Ex 2 - to check if all the numbers are greater than 1
 
-let one=numbers.every((ele)=>ele>=1);
-console.log("Are all the numbers greater than 1 : " ,one);
+/* let one=numbers.every((ele)=>ele>=1);
+console.log("Are all the numbers greater than 1 : " ,one); */
 
+
+
+/* function vowel_count(str:string):number{
+
+let vowels:number=0;
+
+    for(let i=0;i<str.length;i++){
+
+        if(str[i]==='a')
+        {
+            vowels=vowels+1;
+            console.log("inside vowel a block");
+        }
+        else if (str[i]==='e')
+        {
+            vowels=vowels+1;
+            console.log("inside vowel e block");
+        }
+        else if (str[i]==='i')
+        {
+            vowels=vowels+1;
+            console.log("inside vowel i block");
+        }
+        else if (str[i]==='o')
+        {
+            vowels=vowels+1;
+            console.log("inside vowel o block");
+        }
+        else if (str[i]==='u')
+        {
+            vowels=vowels+1;
+            console.log("inside vowel u block");
+        }
+    }
+return vowels;
+}
+
+console.log("The # of vowels are : ", vowel_count("aeiou")); */
+
+function vowel_count(str:string):number{
+
+let vowels:number=0;
+
+    for(let i=0;i<str.length;i++){
+
+        if('aieou'.includes(str[i].toLowerCase()))
+        {
+            vowels=vowels+1;
+        }
+    }
+return vowels;
+}
+
+console.log("The # of vowels are : ", vowel_count("Automation"));
+
+console.log()
