@@ -91,3 +91,7 @@ console.log(greet("max")); */
 function greet1():{
     return "hello";
 } */
+
+
+ //
+
