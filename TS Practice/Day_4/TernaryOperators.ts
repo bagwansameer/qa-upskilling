@@ -18,3 +18,4 @@ let personAge:number =17;
 
 let re:string = (personAge>=18) ? "Adult" : "Child";
 console.log(re);
+//

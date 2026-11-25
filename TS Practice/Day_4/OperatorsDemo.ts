@@ -77,3 +77,4 @@ console.log(!b2); //true
 console.log("-*-*-*-*-*Mix of Logical and Relational Operators*-*-*-*-*-*-*-*-*-*-**-*-*-*")
 console.log(20>5 && 10>5);  // true
 console.log(10<20 || 5>10); // true
+//

@@ -10,10 +10,10 @@ let x:number=10;
 // console.log(x)
 
 //post increment
-let res:number=x++;
+/* let res:number=x++;
 console.log(res) // 10 - x is assigned to res and then the increment happens, hence the value of x is 10
  console.log(x)
-
+ */
 //pre increment
 let res1:number=++x;
 console.log(res1) // 12 incremented value is assigned to res 
@@ -31,3 +31,4 @@ console.log(x) // 11
 let res4:number=--x;
 console.log(res4) // 10 decremented value is assigned to res 
 console.log(x)
+//
