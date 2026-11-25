@@ -12,4 +12,4 @@ sdsds
 
  */
 
-console.log("Learning about comments in TS")
+console.log("Learning about comments in TS");
