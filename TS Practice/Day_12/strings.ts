@@ -17,7 +17,7 @@ let str3:string=`This is a string`;
 
 // When to use backtick operator
 
-let num:number=10;
+let num1:number=10;
 
 console.log("Number is",num);
 
@@ -25,7 +25,7 @@ console.log(`Number is ${num}`);
 
 // String methods
 
-let str:string="Hello, Typescript!";
+let str5:string="Hello, Typescript!";
 
 // #1 - length 
 console.log(`Length of the string is ${str.length}`);
@@ -96,7 +96,7 @@ console.log("concatinating multiple strings : ",str1.concat(str2).concat(str3));
 // concept of string immutability
 // immutable - cannot change original value
 //num=10;
-let res=num+5;
+let res=num1+5;
 console.log(res);
 
 // multiline string declaration with backtick

@@ -28,7 +28,7 @@ let popped=num.pop()
 console.log("Popped element is ",popped)
 
 // Method 3
-// shift() - removed first element from an array
+// shift() - removes first element from an array
 // syntax: array.shift()
 let fruit=fruits.shift();
 console.log("Removed fruit is :",fruit);
