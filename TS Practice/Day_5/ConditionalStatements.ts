@@ -122,7 +122,8 @@ switch(day){
     
 // Example 6 : The switch statement can also include an expression
 
-let x:number=10, y:number=100;
+x=10;
+y=100;
 
 switch(x-y)
 {
@@ -135,3 +136,4 @@ switch(x-y)
     default : console.log("Result is not as expected");         
 
 }
+//
